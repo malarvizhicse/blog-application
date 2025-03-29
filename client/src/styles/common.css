@@ -1,0 +1,47 @@
+/* Global background styles */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+              url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=2070') center/cover no-repeat fixed;
+}
+
+/* Page specific background styles */
+.home-page {
+  background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+              url('https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=2073') center/cover no-repeat fixed;
+}
+
+.dashboard-page {
+  background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+              url('https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=2067') center/cover no-repeat fixed;
+}
+
+.auth-page {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+              url('https://images.unsplash.com/photo-1493606371202-6275828f90f3?q=80&w=2070') center/cover no-repeat fixed;
+}
+
+/* Card hover effects */
+.post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Container background */
+.content-container {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
